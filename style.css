@@ -1,0 +1,170 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    /*Gets rid of underline*/
+    margin: 10px;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+img {
+    padding: 50px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+.header-hero {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-main {
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+}
+
+.header-sub-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    inline-size: 400px;
+}
+
+.hero-secondary {
+    /*combine with links at later time*/
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 200;
+    inline-size: 400px;
+}
+
+.hero-logo {
+    color: #f9faf8;
+}
+
+ul {
+    /*Method to get rid of dots of list*/
+    list-style-type: none;
+}
+
+.links {
+    /*Hero links at top of page*/
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+    border-radius: 25px;
+    height: 60px;
+    width: 50px;
+    border: 4px solid #3882f6;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.words {
+    inline-size: 700px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.name {
+    font-weight: bold;
+    float: right;
+}
+
+.blue-ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    color:white;
+    width: 1000px;
+    padding: 30px;
+    margin: 75px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sign{
+    border-color: white;
+}
+
+#blue-call{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: white;
+}
+
+.footer{
+    margin-top: auto;
+}
