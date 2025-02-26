@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -12,16 +13,14 @@
         <div class="header">
             <div class="header-hero">
                 <p class="hero-logo">Header Logo</p>
-                <ul>
-                    <div class="links">
-                        <li><a href>header link one</a></li>
-                        <li><a href>header link two</a></li>
-                        <li><a href>header link three</a></li>
-                    </div>
+                <ul class="links">
+                        <li><a href="#">header link one</a></li>
+                        <li><a href="#">header link two</a></li>
+                        <li><a href="#">header link three</a></li>
                 </ul>
             </div>
 
-            <div class="header-main">
+            <section class="header-main">
                 <div class="header-sub-main">
                     <p class="hero-main">This Website Is Awesome</p>
                     <p class="hero-secondary">This website has some subtext that goes here under the main title.
@@ -29,46 +28,44 @@
                     <button>Sign up</button>
                 </div>
                 <img src="images/labradoodle.jpg" alt="Picture of labradoodle puppy">
-            </div>
+            </section>
         </div>
 
-
-        <div class="information">
+        <section class="information">
             <p class="random-info">Some random information.</p>
-        </div>
 
-        <div class="boxes">
-            <div id="box1">box1 <p>This is some subtext</p></div>
-            <div id="box2">box2</div>
-            <div id="box3">box3</div>
-            <div id="box4">box4</div>
-        </div>
+            <div class="boxes">
+                <div id="box1">box1 <p>This is some subtext</p>
+                </div>
+                <div id="box2">box2</div>
+                <div id="box3">box3</div>
+                <div id="box4">box4</div>
+            </div>
+        </section>
 
 
-        <div class="quote">
+        <section class="quote">
             <p class="words">This is an inspiring quote, or a testimonial from a customer. Maybe it's for a customer.
                 Maybe it's just filling up space, or maybe people will actually read it. Who knows? All
-                I know is that it looks nice.
+                I know is that it looks nice. <span class="name">-Thor God of Thunder</span>
             </p>
-            <p class="name">-Thor, God of Thunder</p>
-        </div>
+        </section>
 
 
-        <div class="blue-ad">
+        <section class="blue-ad">
             <div class="blue-box">
                 <div class="blue-words">
                     <p id="blue-call">Call to action! It's time!</p>
                     <p id="blue-sign">Sign up for our product by clicking that button right over there!</p>
                 </div>
                 <button id="sign">Sign up</button>
-
             </div>
-        </div>
+        </section>
 
 
-        <div class="footer">
+        <footer>
             <p class="footer-text">Copyright &copy; The Odin Project 2023</p>
-        </div>
+        </footer>
 
     </div>
 </body>
