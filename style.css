@@ -15,7 +15,7 @@ body {
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
     margin: 10px;
 }
 
@@ -116,7 +116,11 @@ img {
     height: 300px;
 }
 
-
+.box-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 /* ========== INFORMATION SECTION ========== */
 .random-info {
@@ -132,31 +136,37 @@ img {
     display: flex;
     justify-content: center;
     gap: 40px;
-    vertical-align: top;
     margin: 50px 0;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
-#box1,
-#box2,
-#box3,
-#box4 {
+.box-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.box {
     border-radius: 25px;
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     border: 4px solid #3882f6;
-    padding: 50px;
     margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
-#box1 p {
-    text-align: center;
-    vertical-align: top;
-    margin-top: 100px;
+.box-caption {
+    margin-top: 10px;
+    font-size: 16px;
+    width: 250px;
+    color: #333;
 }
 
 /* ========== QUOTE SECTION ========== */
