@@ -42,13 +42,14 @@ footer {
 .header-main {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     color: #f9faf8;
 }
 
 .header-sub-main {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
     margin-right: 20px;
 }
 
@@ -70,18 +71,20 @@ footer {
     color: white;
 }
 
-/* ========== HERO SECTION ========== */
-.hero-main {
+/* ========== HERO TEXT SECTION ========== */
+.hero-main-text {
     font-size: 48px;
     font-weight: bolder;
     inline-size: 400px;
+    margin-bottom: 10px;
 }
 
-.hero-secondary {
+.hero-secondary-text {
     font-size: 18px;
     color: #e5e7eb;
-    font-weight: 200;
+    filter:contrast(50%); 
     inline-size: 400px;
+    margin-bottom: 10px;
 }
 
 /* ========== NAVIGATION LINKS ========== */
@@ -103,6 +106,7 @@ ul {
 button {
     color: white;
     background-color: #3882f6;
+    font-weight: bold;
     border-radius: 10px;
     width: 100px;
     height: 30px;
